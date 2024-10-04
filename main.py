@@ -17,21 +17,21 @@ if __name__ == '__main__':
 
 
 # Homeworck 3.1
-a = int(input("Enter First number: "))
+a = int(input("Enter First number: ")) #Ввод числел для вичислений
 b = int(input("Enter Second number: "))
 
-user_select = input("Chouse from - + / *. and press enter: ")
+user_select = input("Chouse from - + / *. and press enter: ") # выбор действия
 
-match user_select:
-    case ("-"):
-        print( a - b)
+match user_select: #
+    case ("-"): #
+        print( a - b)# вычисление и вывод в консоль результата
     case ("+"):
         print(a + b)
     case ("*"):
         print(a * b)
     case ("/"):
         if b == 0:
-            b = int(input("Invalid number, select enother number: "))
+            b = int(input("Invalid number, select enother number: ")) # перевірка ділення на 0, з мозжливістю виправитись
         print( a / b)
     case _:
         print("Invalid input please try again")

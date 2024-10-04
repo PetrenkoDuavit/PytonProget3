@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
 
 # Homeworck 3.1
-a = int(input("Enter First number: ")) #Ввод числел для вичислений
+a = int(input("Enter First number: ")) #Ввод числел для вычислений
 b = int(input("Enter Second number: "))
 
 user_select = input("Chouse from - + / *. and press enter: ") # выбор действия
